@@ -1,4 +1,6 @@
-.header .footer .info {
+.header,
+.footer,
+.info {
     background-color: #1f2937;
 }
 
@@ -9,4 +11,6 @@
     font-style: italic;
     color: #1F2937;
     justify-content: center;
+    flex-direction: column;
+    padding: 20px;
 }
