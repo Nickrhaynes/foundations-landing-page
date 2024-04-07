@@ -76,11 +76,16 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0;
 }
 
 button,
 .sign-up {
     background-color: #3882f6;
+}
+
+button {
+    max-width: 30px;
+    border: 1px white solid;
 }
