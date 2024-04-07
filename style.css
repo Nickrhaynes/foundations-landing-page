@@ -27,7 +27,22 @@
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
-    gap: 6px;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.infotitle {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8
 }
 
 ul {
@@ -63,4 +78,6 @@ body {
     flex: 1;
     justify-content: center;
     margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
 }
