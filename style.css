@@ -34,6 +34,13 @@
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
+    padding: 40px;
+}
+
+.placeholder {
+    color: white;
+    background-color: gray;
+    padding: 40px;
 }
 
 .infocontainer {
