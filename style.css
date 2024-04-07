@@ -5,6 +5,31 @@
     color: white;
 }
 
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 4px;
+    margin-right: auto;
+}
+
+.header-links {
+    padding: 4px;
+    margin-left: auto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
 .quote {
     display: flex;
     background-color: #E5E7EB;
@@ -26,4 +51,7 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    justify-content: center;
+
 }
