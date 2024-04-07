@@ -23,11 +23,15 @@
     margin-left: auto;
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
 }
 
 ul {
-    text-decoration: none;
     list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .quote {
