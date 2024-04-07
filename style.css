@@ -78,6 +78,9 @@ body {
     flex: 1;
     justify-content: center;
     margin: 0;
-    padding-left: 80px;
-    padding-right: 80px;
+}
+
+.button,
+.sign-up {
+    background-color: #3882f6;
 }
