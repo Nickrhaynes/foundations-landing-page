@@ -32,6 +32,8 @@
 
 .info {
     display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .infocontainer {
@@ -86,6 +88,6 @@ button,
 }
 
 button {
-    max-width: 30px;
     border: 1px white solid;
+    color: white;
 }
