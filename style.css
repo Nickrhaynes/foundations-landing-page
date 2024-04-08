@@ -37,7 +37,6 @@
     padding: 40px;
     justify-content: center;
     flex: 1;
-    flex-wrap: wrap;
 }
 
 .placeholder {
@@ -51,6 +50,7 @@
 .infocontainer {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .infotitle {
