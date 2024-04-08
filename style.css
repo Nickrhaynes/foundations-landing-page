@@ -32,9 +32,11 @@
 
 .info {
     display: flex;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 160px;
+    padding-right: 160px;
     padding: 40px;
+    justify-content: center;
+    flex: 1;
 }
 
 .placeholder {
