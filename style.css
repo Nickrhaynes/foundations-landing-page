@@ -114,6 +114,11 @@ button {
 .main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 10px;
+    margin: 20px;
 }
 
 .imagecard {
@@ -127,8 +132,14 @@ button {
 }
 
 .imageborder {
-    border: 2px solid darkblue;
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
+    border: 2px solid #3882f6;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.maintitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
