@@ -39,7 +39,7 @@
     width: 400px;
 }
 
-.placeholder {
+.imagep {
     color: white;
     background-color: lightgray;
     padding: 40px;
@@ -47,6 +47,7 @@
     border: 2px solid #1f2937;
     margin: 5px;
     flex: 1;
+    display: flex;
 }
 
 .infocontainer {
