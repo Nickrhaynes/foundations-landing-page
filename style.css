@@ -36,6 +36,7 @@
     padding-right: 160px;
     padding: 80px;
     justify-content: center;
+    gap: 10px;
 }
 
 .imagep {
@@ -106,4 +107,5 @@ button,
 button {
     border: 1px white solid;
     color: white;
+    align-self: flex-start;
 }
