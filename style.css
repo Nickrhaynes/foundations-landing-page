@@ -36,16 +36,17 @@
     padding-right: 160px;
     padding: 80px;
     justify-content: center;
-    flex: 1;
+    width: 400px;
 }
 
 .placeholder {
     color: white;
-    background-color: gray;
+    background-color: lightgray;
     padding: 40px;
     width: 200px;
     border: 2px solid #1f2937;
     margin: 5px;
+    flex: 1;
 }
 
 .infocontainer {
