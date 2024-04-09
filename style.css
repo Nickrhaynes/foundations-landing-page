@@ -36,7 +36,6 @@
     padding-right: 160px;
     padding: 80px;
     justify-content: center;
-    width: 400px;
 }
 
 .imagep {
@@ -46,14 +45,14 @@
     width: 200px;
     border: 2px solid #1f2937;
     margin: 5px;
-    flex: 1;
-    display: flex;
+    flex: 2;
 }
 
 .infocontainer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 400px;
 }
 
 .infotitle {
