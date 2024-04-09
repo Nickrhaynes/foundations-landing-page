@@ -55,6 +55,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 400px;
+    gap: 5px;
 }
 
 .infotitle {
@@ -108,4 +109,19 @@ button {
     border: 1px white solid;
     color: white;
     align-self: flex-start;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagecard {
+    display: flex;
+}
+
+.mainblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
