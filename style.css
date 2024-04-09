@@ -125,3 +125,10 @@ button {
     flex-direction: column;
     justify-content: center;
 }
+
+.imageborder {
+    border: 2px solid darkblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
