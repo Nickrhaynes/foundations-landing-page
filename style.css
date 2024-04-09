@@ -38,15 +38,15 @@
     justify-content: center;
 }
 
-/* .imagep {
-    color: lightgrey;
+.imagep {
+    color: white;
     background-color: lightgray;
     padding: 40px;
     width: 200px;
     border: 2px solid #1f2937;
     margin: 5px;
     flex: 2;
-} */
+}
 
 .infocontainer {
     display: flex;
