@@ -1,3 +1,7 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .header,
 .footer,
 .info {
@@ -87,7 +91,7 @@ a {
 }
 
 .credit {
-    justify-content: flex-end;
+    justify-self: flex-end;
     font-weight: bold;
 }
 
@@ -126,6 +130,10 @@ button {
 .imagecard {
     display: flex;
     gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+    align-items: center;
 }
 
 .mainblock {
@@ -137,8 +145,8 @@ button {
 
 .imageborder {
     border: 2px solid #3882f6;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
 }
 
