@@ -130,8 +130,6 @@ button {
 .imagecard {
     display: flex;
     gap: 10px;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 100px;
     align-items: center;
 }
