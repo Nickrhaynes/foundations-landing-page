@@ -125,7 +125,6 @@ button {
 .imagecard {
     display: flex;
     gap: 10px;
-    max-width: 100px;
 }
 
 .mainblock {
@@ -133,12 +132,13 @@ button {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    max-width: 150px;
 }
 
 .imageborder {
     border: 2px solid #3882f6;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
 }
 
