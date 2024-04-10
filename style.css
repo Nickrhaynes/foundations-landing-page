@@ -131,7 +131,6 @@ button {
     display: flex;
     gap: 10px;
     max-width: 100px;
-    align-items: center;
 }
 
 .mainblock {
