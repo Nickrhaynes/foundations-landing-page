@@ -55,7 +55,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 400px;
-    gap: 5px;
+    gap: 10px;
 }
 
 .infotitle {
@@ -80,11 +80,11 @@ a {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .credit {
@@ -119,16 +119,19 @@ button {
     padding-right: 200px;
     gap: 10px;
     margin: 20px;
+    padding: 50px;
 }
 
 .imagecard {
     display: flex;
+    gap: 10px;
 }
 
 .mainblock {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
 }
 
 .imageborder {
