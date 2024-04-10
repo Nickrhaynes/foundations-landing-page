@@ -131,7 +131,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     max-width: 150px;
 }
 
