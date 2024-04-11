@@ -89,6 +89,8 @@ a {
 .credit {
     justify-self: flex-end;
     font-weight: bold;
+    font-size: 24px;
+    font-style: none;
 }
 
 body {
@@ -108,6 +110,8 @@ button {
     border: 1px white solid;
     color: white;
     align-self: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .main {
@@ -153,10 +157,19 @@ button {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    margin: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 100px;
+    color: white;
+    gap: 10px;
 }
 
 .sign-upleft {
     display: flex;
     flex-direction: column;
+}
+
+.footer {
+    justify-content: center;
+    padding: 20px;
 }
