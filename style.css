@@ -154,7 +154,7 @@ button {
 
 .sign-up {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 40px;
     padding-left: 80px;
@@ -164,12 +164,18 @@ button {
     gap: 10px;
 }
 
+.sign-uptitle {
+    font-size: 24px;
+
+}
+
 .sign-upleft {
     display: flex;
     flex-direction: column;
 }
 
 .footer {
+    display: flex;
     justify-content: center;
     padding: 20px;
 }
