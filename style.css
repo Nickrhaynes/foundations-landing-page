@@ -77,20 +77,22 @@ a {
 .quote {
     display: flex;
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
     flex-direction: column;
     padding: 20px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
+.quotation {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
 .credit {
-    justify-self: flex-end;
+    align-self: flex-end;
     font-weight: bold;
     font-size: 24px;
-    font-style: none;
 }
 
 body {
