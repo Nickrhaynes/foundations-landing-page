@@ -147,3 +147,16 @@ button {
     font-weight: 900;
     color: #1F2937;
 }
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 40px;
+}
+
+.sign-upleft {
+    display: flex;
+    flex-direction: column;
+}
