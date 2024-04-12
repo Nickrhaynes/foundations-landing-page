@@ -108,10 +108,17 @@ button,
     background-color: #3882f6;
 }
 
-button {
-    border: 1px white solid;
+.button1 {
     color: white;
     align-self: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button2 {
+    border: 1px white solid;
+    color: white;
+    align-self: center;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -130,14 +137,14 @@ button {
 
 .imagecard {
     display: flex;
-    gap: 10px;
+    gap: 25px;
 }
 
 .mainblock {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 15px;
     max-width: 150px;
 }
 
@@ -156,7 +163,7 @@ button {
 
 .sign-up {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 40px;
     padding-left: 80px;
